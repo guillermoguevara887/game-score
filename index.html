@@ -9,10 +9,41 @@
 </head>
 
 <body>
+    <div class="main-container">
+        <div class="container">
+
+            <div class="score-container">
+                <h2>Home</h2>
+                <div id="score-left" class="score-home">0</div>
+                <div class="button-container">
+                    <button class="btn-one bnt" onclick="addOne()">+1</button>
+                    <button class="btn-two bnt" onclick="addTwo()">+2</button>
+                    <button class="btn-three bnt" onclick="addThree()">+3</button>
+                </div>
+
+            </div>
+            <div class="score-container">
+                <h2>Guest</h2>
+                <div id="score-right" class="score-home">0</div>
+                <div class="button-container">
+                    <button class="btn-one bnt" onclick="addOneGuest()">+1</button>
+                    <button class="btn-two bnt" onclick="addTwoGuest()">+2</button>
+                    <button class="btn-three bnt" onclick="addThreeGuest()">+3</button>
+                </div>
+                <button class="bnt" onclick="reset()">Reset</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    </div>
 
 
 
-    <script src="./main.js"></script>
+    <script src=" ./main.js"></script>
 </body>
 
 </html>
